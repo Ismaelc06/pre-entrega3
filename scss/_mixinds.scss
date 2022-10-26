@@ -28,6 +28,8 @@
     overflow: hidden;
     text-align: center;
     transition: all 0.15s;
+    border: solid;
+    border-color: rgb(80, 93, 106);
 }
 
 @mixin effc {

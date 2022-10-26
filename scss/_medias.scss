@@ -1,0 +1,46 @@
+@media screen and (max-width:1024px) {
+
+    footer {
+
+        display: grid;
+        grid-template-areas:
+            "pie1"
+            "pie2"
+            "pie3"
+        ;
+
+        .pie1{
+            margin-bottom: $marg*3;
+            
+        }
+
+        .pie2{
+            margin-bottom: $marg*3;
+        }
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .header h1{
+        font-size: 1.2em;
+        text-align: center;
+        margin-left: $marg;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .logo img {
+        height: 30px;
+        width: auto;
+        transition: all 0.3s;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .header a {
+        display: none;
+        
+    }
+}

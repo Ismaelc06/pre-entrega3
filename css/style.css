@@ -60,7 +60,9 @@ main {
         box-shadow: 0 2 2 black;
         overflow: hidden;
         text-align: center;
-        transition: all 0.15s; }
+        transition: all 0.15s;
+        border: solid;
+        border-color: #505d6a; }
       main .Novedades div img:hover {
         border: 1px solid #ea8912;
         transform: scale(1.1);
@@ -83,7 +85,9 @@ main {
         box-shadow: 0 2 2 black;
         overflow: hidden;
         text-align: center;
-        transition: all 0.15s; }
+        transition: all 0.15s;
+        border: solid;
+        border-color: #505d6a; }
       main .Product2 div img:hover {
         border: 1px solid #ea8912;
         transform: scale(1.1);
@@ -104,7 +108,9 @@ main {
         box-shadow: 0 2 2 black;
         overflow: hidden;
         text-align: center;
-        transition: all 0.15s; }
+        transition: all 0.15s;
+        border: solid;
+        border-color: #505d6a; }
       main .Product3 div img:hover {
         border: 1px solid #ea8912;
         transform: scale(1.1);
@@ -153,3 +159,29 @@ footer {
       width: 45px;
       height: 45px;
       margin-right: 10px; }
+
+/*estilos del footer*/
+@media screen and (max-width: 1024px) {
+  footer {
+    display: grid;
+    grid-template-areas: "pie1" "pie2" "pie3"; }
+    footer .pie1 {
+      margin-bottom: 15px; }
+    footer .pie2 {
+      margin-bottom: 15px; } }
+
+@media screen and (max-width: 1024px) {
+  .header h1 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 5px; } }
+
+@media screen and (max-width: 1024px) {
+  .logo img {
+    height: 30px;
+    width: auto;
+    transition: all 0.3s; } }
+
+@media screen and (max-width: 1024px) {
+  .header a {
+    display: none; } }
