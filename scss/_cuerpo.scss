@@ -58,4 +58,21 @@ main{
     .Maps1 {
         grid-area: Maps1;
     }
+
+    .carrusel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .slide{
+            margin-top: $marg*2;
+            width: $widths*30;
+
+            img{
+                background-color: slategray;
+                height: 45vh;
+                width: $widths*20;
+            }
+        }
+    }
 }

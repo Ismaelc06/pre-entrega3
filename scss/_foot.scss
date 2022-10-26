@@ -1,0 +1,14 @@
+footer{
+    background-color: rgb(60, 60, 60);
+    font-family: $fuente;
+
+    display: grid;
+    grid-template-areas: 
+    "pie1 pie2 pie3"
+    ;
+
+    .pie1{
+        grid-area: pie1;
+        
+    }
+}

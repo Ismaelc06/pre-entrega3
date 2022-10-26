@@ -113,5 +113,16 @@ main {
     grid-area: Maps; }
   main .Maps1 {
     grid-area: Maps1; }
+  main .carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .carrusel .slide {
+      margin-top: 10px;
+      width: 300px; }
+      main .carrusel .slide img {
+        background-color: slategray;
+        height: 45vh;
+        width: 200px; }
 
 /*estilos del footer*/
