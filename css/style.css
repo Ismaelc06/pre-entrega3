@@ -1,3 +1,5 @@
+/*Variables a usar*/
+/*Mixinds*/
 /*estilos de header y logo*/
 header {
   background-color: #a4c5cc50;
@@ -159,6 +161,23 @@ footer {
       width: 45px;
       height: 45px;
       margin-right: 10px; }
+
+/*Sobre nos*/
+.nos {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  margin-right: 25px; }
+  .nos .descrip img {
+    height: 450px;
+    width: 350px;
+    border: 3px skyblue solid; }
+  .nos .descrip h2 {
+    justify-content: space-around;
+    font-size: 50px;
+    color: #e38100; }
 
 /*estilos del footer*/
 @media screen and (max-width: 1024px) {

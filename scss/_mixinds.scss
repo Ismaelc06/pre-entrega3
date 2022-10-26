@@ -32,6 +32,15 @@
     border-color: rgb(80, 93, 106);
 }
 
+@mixin sobnos {
+    display: flex;
+    justify-content: center;
+    padding: $spacing*6;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    margin-right:  $marg*5;   
+}
+
 @mixin effc {
     border: 1px solid rgb(234, 137, 18);
     transform: scale(1.1);

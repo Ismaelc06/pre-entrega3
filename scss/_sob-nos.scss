@@ -1,0 +1,14 @@
+.nos{
+    @include sobnos;
+    .descrip img{
+        height: $heights*45;
+        width: $widths*35;
+        border: 3px skyblue solid;
+    }
+    .descrip h2{
+        justify-content: space-around;
+        font-size: 50px;
+        color: $tit-color;
+    }
+
+}

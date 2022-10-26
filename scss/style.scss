@@ -1,6 +1,7 @@
 // Hoja principal de scss
+/*Variables a usar*/
 @import "variables";
-
+/*Mixinds*/
 @import "mixinds";
 /*estilos de header y logo*/
 @import "header";
@@ -10,5 +11,7 @@
 @import "cuerpo";
 /*estilos del footer*/
 @import "foot";
+/*Sobre nos*/
+@import "sob-nos";
 /*estilos del footer*/
 @import "medias";
