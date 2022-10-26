@@ -1,0 +1,26 @@
+header{
+    @include flex1;
+    height: $heights*9;
+    padding: $spacing 10%;
+    .logo{
+        cursor: pointer;
+        img:hover{
+            transform: scale(1.3);
+        }
+        img{
+            height: $heights*7;
+            width: auto;
+            transition: all 0.3s;
+        }
+    }
+    .wts{
+        height: $heights*5;
+        width: $widths*5;
+    }
+}
+
+//titulos 
+.princ{
+    color: $tit-color;
+    font-family: $fuente;
+}

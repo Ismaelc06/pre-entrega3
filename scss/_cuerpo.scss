@@ -1,0 +1,63 @@
+main{
+    padding: $spacing*2;
+    display: grid;
+    grid-template-areas:
+    "Novedades"
+    "Carrusel"
+    "Product2"
+    "Product3"
+    "Maps"
+    "Maps1"
+    ;
+    
+    .Novedades{
+        grid-area: Novedades;
+        div{
+            @include flex3;
+            img{
+                @include grdmodel;
+            }
+            img:hover{
+                @include effc;
+            }
+        }
+
+        .contt{
+            margin: $marg*3;
+        }
+    }
+
+    .Product2{
+        grid-area: Product2;
+        div{
+            @include flex3;
+            img{
+                @include grdmodel;
+            }
+            img:hover{
+                @include effc;
+            }
+        }
+    }
+
+    .Product3{
+        grid-area: Product3;
+        div{
+            @include flex3;
+            img{
+                @include grdmodel;
+            }
+            img:hover{
+                @include effc;
+            }
+        }
+    }
+
+    .Maps {
+        grid-area: Maps;
+    }
+    
+    .Maps1 {
+        grid-area: Maps1;
+    }
+}

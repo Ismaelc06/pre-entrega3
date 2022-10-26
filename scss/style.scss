@@ -1,3 +1,12 @@
-div{
-    background-color: blue;
-}
+// Hoja principal de scss
+@import "variables";
+
+@import "mixinds";
+/*estilos de header y logo*/
+@import "header";
+/*estilos de navegador*/
+@import "nav";
+/*estilos de main*/
+@import "cuerpo";
+/*estilos del footer*/
+@import "foot";

@@ -1,0 +1,37 @@
+@mixin flex1 {
+    background-color: #a4c5cc50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex2 {
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: center;
+}
+
+@mixin flex3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@mixin grdmodel {
+    margin: $marg*3;
+    height: $heights*28;
+    width: $widths*29;
+    border-radius: 4px;
+    box-shadow: 0 2 2 rgba(0, 0, 0, 2);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+@mixin effc {
+    border: 1px solid rgb(234, 137, 18);
+    transform: scale(1.1);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 2);
+}
