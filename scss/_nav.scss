@@ -2,7 +2,7 @@
     background-color: #0b0b8f;
     @include flex2;
     padding: $spacing 10px;
-    font-family: $fuente;
+    font-family: 'Nunito',sans-serif;
     li:hover{
         transform: scale(1.1);
     }

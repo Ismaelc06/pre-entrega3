@@ -20,16 +20,16 @@ header {
 
 .princ {
   color: #e38100;
-  font-family: "Nunito", sans-serif; }
+  font-family: 'Nunito', sans-serif; }
 
 /*estilos de navegador*/
 .navbar {
   background-color: #0b0b8f;
   display: flex;
-  justify-content: flex-end !important;
+  justify-content: flex-start !important;
   align-items: center;
   padding: 5px 10px;
-  font-family: "Nunito", sans-serif; }
+  font-family: 'Nunito',sans-serif; }
   .navbar li:hover {
     transform: scale(1.1); }
   .navbar li a:hover {
@@ -53,10 +53,10 @@ main {
       flex-direction: row;
       flex-wrap: wrap; }
       main .Novedades div img {
-        margin: 15px;
-        height: 280px;
-        width: 290px;
-        border-radius: 4px;
+        margin: 10px;
+        height: 220px;
+        width: 270px;
+        border-radius: 5px;
         box-shadow: 0 2 2 black;
         overflow: hidden;
         text-align: center;
@@ -76,10 +76,10 @@ main {
       flex-direction: row;
       flex-wrap: wrap; }
       main .Product2 div img {
-        margin: 15px;
-        height: 280px;
-        width: 290px;
-        border-radius: 4px;
+        margin: 10px;
+        height: 220px;
+        width: 270px;
+        border-radius: 5px;
         box-shadow: 0 2 2 black;
         overflow: hidden;
         text-align: center;
@@ -97,10 +97,10 @@ main {
       flex-direction: row;
       flex-wrap: wrap; }
       main .Product3 div img {
-        margin: 15px;
-        height: 280px;
-        width: 290px;
-        border-radius: 4px;
+        margin: 10px;
+        height: 220px;
+        width: 270px;
+        border-radius: 5px;
         box-shadow: 0 2 2 black;
         overflow: hidden;
         text-align: center;
@@ -126,3 +126,30 @@ main {
         width: 200px; }
 
 /*estilos del footer*/
+footer {
+  background-color: #3c3c3c;
+  font-family: "Nunito", sans-serif;
+  padding: 15px;
+  display: grid;
+  grid-template-areas: "pie1 pie2 pie3"; }
+  footer .pie1 {
+    grid-area: pie1;
+    display: flex;
+    flex-direction: column; }
+  footer .pie2 {
+    grid-area: pie2;
+    display: flex;
+    flex-direction: column; }
+    footer .pie2 .lis {
+      color: #e38100; }
+      footer .pie2 .lis a {
+        color: white;
+        text-decoration: none; }
+  footer .pie3 {
+    grid-area: pie3;
+    display: flex;
+    flex-direction: column; }
+    footer .pie3 img {
+      width: 45px;
+      height: 45px;
+      margin-right: 10px; }

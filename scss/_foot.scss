@@ -1,14 +1,34 @@
 footer{
     background-color: rgb(60, 60, 60);
     font-family: $fuente;
-
+    padding: $spacing*3;
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "pie1 pie2 pie3"
     ;
 
     .pie1{
         grid-area: pie1;
-        
+        @include ft;
+    }
+    .pie2{
+        grid-area: pie2;
+        @include ft;
+        .lis{
+            color: $tit-color;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    .pie3{
+        grid-area: pie3;
+        @include ft;
+        img{
+            width: $widths*4.5;
+            height: $heights*4.5;
+            margin-right: $marg*2;
+        }
     }
 }

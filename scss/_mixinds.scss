@@ -7,7 +7,7 @@
 
 @mixin flex2 {
     display: flex;
-    justify-content: flex-end !important;
+    justify-content:flex-start !important;
     align-items: center;
 }
 
@@ -20,10 +20,10 @@
 }
 
 @mixin grdmodel {
-    margin: $marg*3;
-    height: $heights*28;
-    width: $widths*29;
-    border-radius: 4px;
+    margin: $marg*2;
+    height: $heights*22;
+    width: $widths*27;
+    border-radius: 5px;
     box-shadow: 0 2 2 rgba(0, 0, 0, 2);
     overflow: hidden;
     text-align: center;
@@ -34,4 +34,9 @@
     border: 1px solid rgb(234, 137, 18);
     transform: scale(1.1);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 2);
+}
+
+@mixin ft{
+    display: flex;
+    flex-direction: column; 
 }
